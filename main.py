@@ -6,11 +6,6 @@ import re
 
 client = discord.Client()
 
-def get_joke():
-  return
-  # response = requests.get( "https://jokes.p.rapidapi.com/jod")
-  # json_data = json.loads(response.text)
-
 @client.event
 async def on_ready():
     print("다음으로 로그인합니다")
